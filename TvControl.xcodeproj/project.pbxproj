@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4604F1452BCF3CE300696FD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1442BCF3CE300696FD7 /* AppDelegate.m */; };
+		4604F1482BCF3CE300696FD7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1472BCF3CE300696FD7 /* SceneDelegate.m */; };
+		4604F14B2BCF3CE300696FD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F14A2BCF3CE300696FD7 /* ViewController.m */; };
+		4604F14E2BCF3CE300696FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4604F14C2BCF3CE300696FD7 /* Main.storyboard */; };
+		4604F1502BCF3CE400696FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4604F14F2BCF3CE400696FD7 /* Assets.xcassets */; };
+		4604F1532BCF3CE400696FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4604F1512BCF3CE400696FD7 /* LaunchScreen.storyboard */; };
+		4604F1562BCF3CE400696FD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1552BCF3CE400696FD7 /* main.m */; };
+		4604F1602BCF3CE400696FD7 /* TvControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F15F2BCF3CE400696FD7 /* TvControlTests.m */; };
+		4604F16A2BCF3CE400696FD7 /* TvControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1692BCF3CE400696FD7 /* TvControlUITests.m */; };
+		4604F16C2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F16B2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4604F15C2BCF3CE400696FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604F1382BCF3CE300696FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4604F13F2BCF3CE300696FD7;
+			remoteInfo = TvControl;
+		};
+		4604F1662BCF3CE400696FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604F1382BCF3CE300696FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4604F13F2BCF3CE300696FD7;
+			remoteInfo = TvControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4604F1402BCF3CE300696FD7 /* TvControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4604F1432BCF3CE300696FD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4604F1442BCF3CE300696FD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4604F1462BCF3CE300696FD7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4604F1472BCF3CE300696FD7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4604F1492BCF3CE300696FD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4604F14A2BCF3CE300696FD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4604F14D2BCF3CE300696FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4604F14F2BCF3CE400696FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4604F1522BCF3CE400696FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4604F1542BCF3CE400696FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4604F1552BCF3CE400696FD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4604F15B2BCF3CE400696FD7 /* TvControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4604F15F2BCF3CE400696FD7 /* TvControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlTests.m; sourceTree = "<group>"; };
+		4604F1652BCF3CE400696FD7 /* TvControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4604F1692BCF3CE400696FD7 /* TvControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlUITests.m; sourceTree = "<group>"; };
+		4604F16B2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4604F13D2BCF3CE300696FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1582BCF3CE400696FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1622BCF3CE400696FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4604F1372BCF3CE300696FD7 = {
+			isa = PBXGroup;
+			children = (
+				4604F1422BCF3CE300696FD7 /* TvControl */,
+				4604F15E2BCF3CE400696FD7 /* TvControlTests */,
+				4604F1682BCF3CE400696FD7 /* TvControlUITests */,
+				4604F1412BCF3CE300696FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4604F1412BCF3CE300696FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4604F1402BCF3CE300696FD7 /* TvControl.app */,
+				4604F15B2BCF3CE400696FD7 /* TvControlTests.xctest */,
+				4604F1652BCF3CE400696FD7 /* TvControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4604F1422BCF3CE300696FD7 /* TvControl */ = {
+			isa = PBXGroup;
+			children = (
+				4604F1432BCF3CE300696FD7 /* AppDelegate.h */,
+				4604F1442BCF3CE300696FD7 /* AppDelegate.m */,
+				4604F1462BCF3CE300696FD7 /* SceneDelegate.h */,
+				4604F1472BCF3CE300696FD7 /* SceneDelegate.m */,
+				4604F1492BCF3CE300696FD7 /* ViewController.h */,
+				4604F14A2BCF3CE300696FD7 /* ViewController.m */,
+				4604F14C2BCF3CE300696FD7 /* Main.storyboard */,
+				4604F14F2BCF3CE400696FD7 /* Assets.xcassets */,
+				4604F1512BCF3CE400696FD7 /* LaunchScreen.storyboard */,
+				4604F1542BCF3CE400696FD7 /* Info.plist */,
+				4604F1552BCF3CE400696FD7 /* main.m */,
+			);
+			path = TvControl;
+			sourceTree = "<group>";
+		};
+		4604F15E2BCF3CE400696FD7 /* TvControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				4604F15F2BCF3CE400696FD7 /* TvControlTests.m */,
+			);
+			path = TvControlTests;
+			sourceTree = "<group>";
+		};
+		4604F1682BCF3CE400696FD7 /* TvControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4604F1692BCF3CE400696FD7 /* TvControlUITests.m */,
+				4604F16B2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m */,
+			);
+			path = TvControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4604F13F2BCF3CE300696FD7 /* TvControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4604F16F2BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControl" */;
+			buildPhases = (
+				4604F13C2BCF3CE300696FD7 /* Sources */,
+				4604F13D2BCF3CE300696FD7 /* Frameworks */,
+				4604F13E2BCF3CE300696FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvControl;
+			productName = TvControl;
+			productReference = 4604F1402BCF3CE300696FD7 /* TvControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4604F15A2BCF3CE400696FD7 /* TvControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4604F1722BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlTests" */;
+			buildPhases = (
+				4604F1572BCF3CE400696FD7 /* Sources */,
+				4604F1582BCF3CE400696FD7 /* Frameworks */,
+				4604F1592BCF3CE400696FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4604F15D2BCF3CE400696FD7 /* PBXTargetDependency */,
+			);
+			name = TvControlTests;
+			productName = TvControlTests;
+			productReference = 4604F15B2BCF3CE400696FD7 /* TvControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4604F1642BCF3CE400696FD7 /* TvControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4604F1752BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlUITests" */;
+			buildPhases = (
+				4604F1612BCF3CE400696FD7 /* Sources */,
+				4604F1622BCF3CE400696FD7 /* Frameworks */,
+				4604F1632BCF3CE400696FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4604F1672BCF3CE400696FD7 /* PBXTargetDependency */,
+			);
+			name = TvControlUITests;
+			productName = TvControlUITests;
+			productReference = 4604F1652BCF3CE400696FD7 /* TvControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4604F1382BCF3CE300696FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4604F13F2BCF3CE300696FD7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4604F15A2BCF3CE400696FD7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4604F13F2BCF3CE300696FD7;
+					};
+					4604F1642BCF3CE400696FD7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4604F13F2BCF3CE300696FD7;
+					};
+				};
+			};
+			buildConfigurationList = 4604F13B2BCF3CE300696FD7 /* Build configuration list for PBXProject "TvControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4604F1372BCF3CE300696FD7;
+			productRefGroup = 4604F1412BCF3CE300696FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4604F13F2BCF3CE300696FD7 /* TvControl */,
+				4604F15A2BCF3CE400696FD7 /* TvControlTests */,
+				4604F1642BCF3CE400696FD7 /* TvControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4604F13E2BCF3CE300696FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604F1532BCF3CE400696FD7 /* LaunchScreen.storyboard in Resources */,
+				4604F1502BCF3CE400696FD7 /* Assets.xcassets in Resources */,
+				4604F14E2BCF3CE300696FD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1592BCF3CE400696FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1632BCF3CE400696FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4604F13C2BCF3CE300696FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604F14B2BCF3CE300696FD7 /* ViewController.m in Sources */,
+				4604F1452BCF3CE300696FD7 /* AppDelegate.m in Sources */,
+				4604F1562BCF3CE400696FD7 /* main.m in Sources */,
+				4604F1482BCF3CE300696FD7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1572BCF3CE400696FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604F1602BCF3CE400696FD7 /* TvControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4604F1612BCF3CE400696FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604F16C2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m in Sources */,
+				4604F16A2BCF3CE400696FD7 /* TvControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4604F15D2BCF3CE400696FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4604F13F2BCF3CE300696FD7 /* TvControl */;
+			targetProxy = 4604F15C2BCF3CE400696FD7 /* PBXContainerItemProxy */;
+		};
+		4604F1672BCF3CE400696FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4604F13F2BCF3CE300696FD7 /* TvControl */;
+			targetProxy = 4604F1662BCF3CE400696FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4604F14C2BCF3CE300696FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4604F14D2BCF3CE300696FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4604F1512BCF3CE400696FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4604F1522BCF3CE400696FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4604F16D2BCF3CE400696FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4604F16E2BCF3CE400696FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4604F1702BCF3CE400696FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4604F1712BCF3CE400696FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4604F1732BCF3CE400696FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TvControl";
+			};
+			name = Debug;
+		};
+		4604F1742BCF3CE400696FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TvControl";
+			};
+			name = Release;
+		};
+		4604F1762BCF3CE400696FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvControl;
+			};
+			name = Debug;
+		};
+		4604F1772BCF3CE400696FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7RDW82NBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunoamorim.TvControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4604F13B2BCF3CE300696FD7 /* Build configuration list for PBXProject "TvControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604F16D2BCF3CE400696FD7 /* Debug */,
+				4604F16E2BCF3CE400696FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4604F16F2BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604F1702BCF3CE400696FD7 /* Debug */,
+				4604F1712BCF3CE400696FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4604F1722BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604F1732BCF3CE400696FD7 /* Debug */,
+				4604F1742BCF3CE400696FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4604F1752BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604F1762BCF3CE400696FD7 /* Debug */,
+				4604F1772BCF3CE400696FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4604F1382BCF3CE300696FD7 /* Project object */;
+}

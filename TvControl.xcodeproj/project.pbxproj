@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A94C2FDD2006940F504B166 /* Pods_TvControl_TvControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE9A653FC63E43874FE102E /* Pods_TvControl_TvControlUITests.framework */; };
 		4604F1452BCF3CE300696FD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1442BCF3CE300696FD7 /* AppDelegate.m */; };
 		4604F1482BCF3CE300696FD7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1472BCF3CE300696FD7 /* SceneDelegate.m */; };
 		4604F14B2BCF3CE300696FD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F14A2BCF3CE300696FD7 /* ViewController.m */; };
@@ -17,6 +18,9 @@
 		4604F1602BCF3CE400696FD7 /* TvControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F15F2BCF3CE400696FD7 /* TvControlTests.m */; };
 		4604F16A2BCF3CE400696FD7 /* TvControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F1692BCF3CE400696FD7 /* TvControlUITests.m */; };
 		4604F16C2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604F16B2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m */; };
+		464A04D32BD06F15003C5AAB /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 464A04D22BD06F15003C5AAB /* ConnectionManager.m */; };
+		838ECB8C22533652DA30BD08 /* Pods_TvControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6F585950308FDB25B25C49 /* Pods_TvControl.framework */; };
+		F20BF6666EE6A46A04086F5F /* Pods_TvControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9A89E35C35879DE656957 /* Pods_TvControlTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6F585950308FDB25B25C49 /* Pods_TvControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFC5956562D27B9A1F23C8A /* Pods-TvControl-TvControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControl-TvControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-TvControl-TvControlUITests/Pods-TvControl-TvControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F9A89E35C35879DE656957 /* Pods_TvControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4604F1402BCF3CE300696FD7 /* TvControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4604F1432BCF3CE300696FD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4604F1442BCF3CE300696FD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,16 @@
 		4604F1652BCF3CE400696FD7 /* TvControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4604F1692BCF3CE400696FD7 /* TvControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlUITests.m; sourceTree = "<group>"; };
 		4604F16B2BCF3CE400696FD7 /* TvControlUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControlUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4604F1C02BD0363900696FD7 /* ConnectSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ConnectSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		464A04D12BD03E14003C5AAB /* TvControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TvControl.entitlements; sourceTree = "<group>"; };
+		464A04D22BD06F15003C5AAB /* ConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		464A04D42BD06F24003C5AAB /* ConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		6E3AFA58804C04F30BB1ECD2 /* Pods-TvControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControlTests.debug.xcconfig"; path = "Target Support Files/Pods-TvControlTests/Pods-TvControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A007DE9D6BCC80302299A86C /* Pods-TvControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControlTests.release.xcconfig"; path = "Target Support Files/Pods-TvControlTests/Pods-TvControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8641164B44C175318DE809E /* Pods-TvControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControl.release.xcconfig"; path = "Target Support Files/Pods-TvControl/Pods-TvControl.release.xcconfig"; sourceTree = "<group>"; };
+		DBE9A653FC63E43874FE102E /* Pods_TvControl_TvControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvControl_TvControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E145F06E2B9734B6B69C5345 /* Pods-TvControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControl.debug.xcconfig"; path = "Target Support Files/Pods-TvControl/Pods-TvControl.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FF50FC40B60748DF3A7A82 /* Pods-TvControl-TvControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvControl-TvControlUITests.release.xcconfig"; path = "Target Support Files/Pods-TvControl-TvControlUITests/Pods-TvControl-TvControlUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838ECB8C22533652DA30BD08 /* Pods_TvControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20BF6666EE6A46A04086F5F /* Pods_TvControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A94C2FDD2006940F504B166 /* Pods_TvControl_TvControlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +108,8 @@
 				4604F15E2BCF3CE400696FD7 /* TvControlTests */,
 				4604F1682BCF3CE400696FD7 /* TvControlUITests */,
 				4604F1412BCF3CE300696FD7 /* Products */,
+				AA05CEF89B94F1CA727230A9 /* Pods */,
+				F7966ADCDA1C9564644F5822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +126,8 @@
 		4604F1422BCF3CE300696FD7 /* TvControl */ = {
 			isa = PBXGroup;
 			children = (
+				464A04D52BD06F4D003C5AAB /* Source */,
+				464A04D12BD03E14003C5AAB /* TvControl.entitlements */,
 				4604F1432BCF3CE300696FD7 /* AppDelegate.h */,
 				4604F1442BCF3CE300696FD7 /* AppDelegate.m */,
 				4604F1462BCF3CE300696FD7 /* SceneDelegate.h */,
@@ -136,6 +160,39 @@
 			path = TvControlUITests;
 			sourceTree = "<group>";
 		};
+		464A04D52BD06F4D003C5AAB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				464A04D22BD06F15003C5AAB /* ConnectionManager.m */,
+				464A04D42BD06F24003C5AAB /* ConnectionManager.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AA05CEF89B94F1CA727230A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E145F06E2B9734B6B69C5345 /* Pods-TvControl.debug.xcconfig */,
+				D8641164B44C175318DE809E /* Pods-TvControl.release.xcconfig */,
+				0EFC5956562D27B9A1F23C8A /* Pods-TvControl-TvControlUITests.debug.xcconfig */,
+				E8FF50FC40B60748DF3A7A82 /* Pods-TvControl-TvControlUITests.release.xcconfig */,
+				6E3AFA58804C04F30BB1ECD2 /* Pods-TvControlTests.debug.xcconfig */,
+				A007DE9D6BCC80302299A86C /* Pods-TvControlTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7966ADCDA1C9564644F5822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4604F1C02BD0363900696FD7 /* ConnectSDK.framework */,
+				0B6F585950308FDB25B25C49 /* Pods_TvControl.framework */,
+				DBE9A653FC63E43874FE102E /* Pods_TvControl_TvControlUITests.framework */,
+				43F9A89E35C35879DE656957 /* Pods_TvControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4604F16F2BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControl" */;
 			buildPhases = (
+				202BA6065583738C5A4E6294 /* [CP] Check Pods Manifest.lock */,
 				4604F13C2BCF3CE300696FD7 /* Sources */,
 				4604F13D2BCF3CE300696FD7 /* Frameworks */,
 				4604F13E2BCF3CE300696FD7 /* Resources */,
+				87C0C0AA8DA9D88C6B2B63ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4604F1722BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlTests" */;
 			buildPhases = (
+				541E8CF308CAA73DA0D98190 /* [CP] Check Pods Manifest.lock */,
 				4604F1572BCF3CE400696FD7 /* Sources */,
 				4604F1582BCF3CE400696FD7 /* Frameworks */,
 				4604F1592BCF3CE400696FD7 /* Resources */,
@@ -178,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4604F1752BCF3CE400696FD7 /* Build configuration list for PBXNativeTarget "TvControlUITests" */;
 			buildPhases = (
+				EFB0D301740D6C3D770A7614 /* [CP] Check Pods Manifest.lock */,
 				4604F1612BCF3CE400696FD7 /* Sources */,
 				4604F1622BCF3CE400696FD7 /* Frameworks */,
 				4604F1632BCF3CE400696FD7 /* Resources */,
+				7C5960F068B5412BD7526741 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +323,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		202BA6065583738C5A4E6294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541E8CF308CAA73DA0D98190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5960F068B5412BD7526741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvControl-TvControlUITests/Pods-TvControl-TvControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvControl-TvControlUITests/Pods-TvControl-TvControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvControl-TvControlUITests/Pods-TvControl-TvControlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C0C0AA8DA9D88C6B2B63ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvControl/Pods-TvControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvControl/Pods-TvControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvControl/Pods-TvControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB0D301740D6C3D770A7614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvControl-TvControlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4604F13C2BCF3CE300696FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +433,7 @@
 			files = (
 				4604F14B2BCF3CE300696FD7 /* ViewController.m in Sources */,
 				4604F1452BCF3CE300696FD7 /* AppDelegate.m in Sources */,
+				464A04D32BD06F15003C5AAB /* ConnectionManager.m in Sources */,
 				4604F1562BCF3CE400696FD7 /* main.m in Sources */,
 				4604F1482BCF3CE300696FD7 /* SceneDelegate.m in Sources */,
 			);
@@ -377,7 +543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -432,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -443,19 +609,28 @@
 		};
 		4604F1702BCF3CE400696FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E145F06E2B9734B6B69C5345 /* Pods-TvControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TvControl/TvControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7RDW82NBK;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TvControl/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,19 +645,28 @@
 		};
 		4604F1712BCF3CE400696FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8641164B44C175318DE809E /* Pods-TvControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TvControl/TvControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7RDW82NBK;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TvControl/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,6 +681,7 @@
 		};
 		4604F1732BCF3CE400696FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3AFA58804C04F30BB1ECD2 /* Pods-TvControlTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +700,7 @@
 		};
 		4604F1742BCF3CE400696FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A007DE9D6BCC80302299A86C /* Pods-TvControlTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +719,7 @@
 		};
 		4604F1762BCF3CE400696FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFC5956562D27B9A1F23C8A /* Pods-TvControl-TvControlUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,6 +736,7 @@
 		};
 		4604F1772BCF3CE400696FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FF50FC40B60748DF3A7A82 /* Pods-TvControl-TvControlUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
